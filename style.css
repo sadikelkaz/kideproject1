@@ -29,6 +29,8 @@
     padding-top: 1%;
 }
 
+
+
 body {
     overflow-x: hidden;
 }
@@ -517,5 +519,133 @@ body {
       padding: 5%;
   }
 }
+
+@media (max-width: 768px) {
+  .header {
+      height: 100vh;
+  }
+}
+
+.followers {
+  color: red; 
+  font-size: 42px;
+}
+
+@media (max-width: 768px) {
+  .followers {
+      font-size: 28px;
+  }
+}
+
+@media (max-width: 768px) {
+  .links a {
+      width: 100px;
+  }
+}
+
+.kidy1 {
+  background-image:url(ida.png); width: 120px; height: 120px; background-size: cover; background-repeat: no-repeat; border-radius: 50%; margin-right: 10px; margin-top: 20%;
+}
+
+.kidy2 {
+  background-image:url(jos.jpeg); width: 120px; height: 120px; background-size: cover; background-repeat: no-repeat; border-radius: 50%; margin-right: 10px; margin-top: 20%;
+}
+
+.kidy3 {
+  background-image:url(ric.jpeg); width: 120px; height: 120px; background-size: cover; background-repeat: no-repeat; border-radius: 50%; margin-right: 10px; margin-top: 20%;
+}
+
+.kidy4 {
+  background-image:url(alan.jpeg); width: 120px; height: 120px; background-size: cover; background-repeat: no-repeat; border-radius: 50%; margin-right: 10px; margin-top: 20%;
+}
+
+.kidy5 {
+  background-image:url(joris.jpeg); width: 120px; height: 120px; background-size: cover; background-repeat: no-repeat; border-radius: 50%; margin-right: 10px; margin-top: 20%;
+}
+
+.kidy6 {
+  background-image:url(sven.jpeg); width: 120px; height: 120px; background-size: cover; background-repeat: no-repeat; border-radius: 50%; margin-right: 10px; margin-top: 20%;
+}
+
+.kidy7 {
+  background-image:url(tort.jpeg); width: 120px; height: 120px; background-size: cover; background-repeat: no-repeat; border-radius: 50%; margin-right: 10px; margin-top: 20%;
+}
+
+.kidy8 {
+  background-image:url(soma.jpeg); width: 120px; height: 120px; background-size: cover; background-repeat: no-repeat; border-radius: 50%; margin-right: 10px; margin-top: 20%;
+}
+
+.kidy9 {
+  background-image:url(coc.jpeg); width: 120px; height: 120px; background-size: cover; background-repeat: no-repeat; border-radius: 50%; margin-right: 10px; margin-top: 20%;
+}
+
+.kidy10 {
+  background-image:url(nova.jpeg); width: 120px; height: 120px; background-size: cover; background-repeat: no-repeat; border-radius: 50%; margin-right: 10px; margin-top: 20%;
+}
+
+.kidy11 {
+  background-image:url(8rec.jpeg); width: 120px; height: 120px; background-size: cover; background-repeat: no-repeat; border-radius: 50%; margin-right: 10px; margin-top: 20%;
+}
+
+.kidy12 {
+  background-image:url(iba.jpeg); width: 120px; height: 120px; background-size: cover; background-repeat: no-repeat; border-radius: 50%; margin-right: 10px; margin-top: 20%;
+}
+
+.kidy13 {
+  background-image:url(drum.jpeg); width: 120px; height: 120px; background-size: cover; background-repeat: no-repeat; border-radius: 50%; margin-right: 10px; margin-top: 20%;
+}
+
+.kidy14 {
+  background-image:url(mad.jpeg); width: 120px; height: 120px; background-size: cover; background-repeat: no-repeat; border-radius: 50%; margin-right: 10px; margin-top: 20%;
+}
+
+.kidy15 {
+  background-image:url(apo.jpeg); width: 120px; height: 120px; background-size: cover; background-repeat: no-repeat; border-radius: 50%; margin-right: 10px; margin-top: 20%;
+}
+
+
+@media (max-width: 768px) {
+  .kidy1,
+  .kidy2,
+  .kidy3,
+  .kidy4,
+  .kidy5,
+  .kidy6,
+  .kidy7,
+  .kidy8,
+  .kidy9,
+  .kidy10,
+  .kidy11,
+  .kidy12,
+  .kidy13,
+  .kidy14,
+  .kidy15{
+      width: 90px;
+      height: 90px;
+  }
+}
+
+.beyer img {
+  width: 400px; height: 400px;
+}
+
+@media (max-width: 768px) {
+  .beyer img{
+      width: 300px;
+      height: 300px;
+  }
+}
+
+.alien img {
+  width: 400px; height: 400px;
+}
+
+@media (max-width: 768px) {
+  .alien img{
+      width: 300px;
+      height: 300px;
+  }
+}
+
 
 
